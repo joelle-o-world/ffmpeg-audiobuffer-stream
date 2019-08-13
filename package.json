@@ -1,0 +1,19 @@
+{
+  "name": "ffmpeg-audiobuffer-stream",
+  "version": "1.0.0",
+  "description": "Decode an audio file (using fluent-ffmpeg) to make an object stream where each chunk is an AudioBuffer.",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "Joely Joel",
+  "license": "ISC",
+  "devDependencies": {
+    "@types/node": "^12.7.1"
+  },
+  "dependencies": {
+    "@types/fluent-ffmpeg": "^2.1.10",
+    "audiobuffer": "^0.2.0",
+    "fluent-ffmpeg": "^2.1.2"
+  }
+}
