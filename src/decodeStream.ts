@@ -100,6 +100,7 @@ function decode(file:string, sampleRate:number=44100, numberOfChannels=1) {
 
   return objectify
 }
+export {decode}
 export default decode
 
 /**
